@@ -1,0 +1,22 @@
+title: MBAI Simulation
+description: The simulation backend architecture for the Money Ball AI project.
+url: https://lorenzoliuzzo.github.io/MBAI-sim
+
+theme: just-the-docs
+color_scheme: light
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_repo_url: https://github.com/lorenzoliuzzo/MBAI-sim
+
+aux_links:
+  "MBAI": https://github.com/lorenzoliuzzo/MBAI 
+  "MBAI-sim": https://github.com/lorenzoliuzzo/MBAI-sim
+
+mermaid:
+  version: "10.9.1"
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
