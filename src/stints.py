@@ -13,3 +13,9 @@ class PlayerStint(TimeWindow, ClockWindow):
 class LineUpStint(TimeWindow, ClockWindow): 
     lineup_id: int
     players: List[PlayerStint]
+
+
+@dataclass(kw_only=True)
+class CourtContext(TimeWindow, ClockWindow):
+    home: LineUpStint
+    away: LineUpStint
